@@ -1,0 +1,54 @@
+{
+   "abstract" : "Scraperwiki library",
+   "author" : [
+      "Lubomir Rintel <lkundrak@v3.sk>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Scraperwiki",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "File::Temp" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DBD::SQLite" : "0",
+            "DBI" : "0",
+            "LWP::Simple" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Scraperwiki" : {
+         "file" : "lib/Scraperwiki.pm",
+         "version" : 0
+      },
+      "Scraperwiki::DumpTruck" : {
+         "file" : "lib/Scraperwiki/DumpTruck.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.002_001"
+}

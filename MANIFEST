@@ -1,0 +1,7 @@
+Build.PL
+lib/Scraperwiki.pm
+lib/Scraperwiki/DumpTruck.pm
+t/dumptruck.t
+MANIFEST
+META.yml
+META.json

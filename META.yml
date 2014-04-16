@@ -1,0 +1,31 @@
+---
+abstract: 'Scraperwiki library'
+author:
+  - 'Lubomir Rintel <lkundrak@v3.sk>'
+build_requires:
+  File::Temp: 0
+  Test::Exception: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Scraperwiki
+provides:
+  Scraperwiki:
+    file: lib/Scraperwiki.pm
+    version: 0
+  Scraperwiki::DumpTruck:
+    file: lib/Scraperwiki/DumpTruck.pm
+    version: 0
+requires:
+  DBD::SQLite: 0
+  DBI: 0
+  LWP::Simple: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.002_001
