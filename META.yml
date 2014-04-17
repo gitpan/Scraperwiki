@@ -23,9 +23,11 @@ provides:
     file: lib/Scraperwiki/DumpTruck.pm
     version: 0
 requires:
+  B: 0
   DBD::SQLite: 0
   DBI: 0
+  JSON: 0
   LWP::Simple: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.002_001
+version: 0.003_001
